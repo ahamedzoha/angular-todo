@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+@layer base {
+  h0 {
+    @apply text-xl font-sans text-slate-700 dark:text-white/80;
+  }
+  h1 {
+    @apply text-6xl font-sans font-bold;
+  }
+  h2 {
+    @apply text-4xl font-sans font-bold;
+  }
+  h3 {
+    @apply text-3xl font-sans;
+  }
+}
